@@ -1,0 +1,5 @@
+this is gnuz, an irc rss aggregator. it will read RSS feeds, and then spit out headlines with shortened urls into an irc channel. it can even use _IRC COLORS_.
+
+gnuz is copyright (c) 2012 David J Moore
+
+see LICENSE file for license
