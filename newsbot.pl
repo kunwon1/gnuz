@@ -196,6 +196,7 @@ $irc->reg_cb (
 						}
 				
 						my $col = $colors{$feedtitle};
+						$feedtitle = decode("utf8", $feedtitle); # to not double-encode it later...
 						for my $sendchan (@allchannels) {
 							my $msg;
 							$msg .= ($col == 'N') ? "[" : "[\003$col";
